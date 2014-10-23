@@ -89,19 +89,18 @@ tr.introjs-showElement > th {
   top: -16px;
   left: -16px;
   z-index: 9999999999 !important;
-  padding: 2px;
+  padding: 2px 1px;
   font-family: Arial, verdana, tahoma;
   font-size: 13px;
   font-weight: bold;
   color: white;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
   background: #1f54b4;
   width: 20px;
   height:20px;
   line-height: 20px;
   border: 2px solid white;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .introjs-arrow {
