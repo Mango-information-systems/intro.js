@@ -96,21 +96,12 @@ tr.introjs-showElement > th {
   color: white;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-  background: #ff3019; /* Old browsers */
-  background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Chrome10+,Safari5.1+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404)); /* Chrome,Safari4+ */
-  background:    -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */
-  background:     -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* IE10+ */
-  background:      -o-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Opera 11.10+ */
-  background:         linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);  /* W3C */
+  background: #1f54b4;
   width: 20px;
   height:20px;
   line-height: 20px;
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0); /* IE6-9 */
-  filter: progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000); /* IE10 text shadows */
-  box-shadow: 0 2px 5px rgba(0,0,0,.4);
 }
 
 .introjs-arrow {
@@ -220,15 +211,7 @@ tr.introjs-showElement > th {
   white-space: nowrap;
   cursor: pointer;
   outline: none;
-  background-color: #ececec;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
-  background-image: -moz-linear-gradient(#f4f4f4, #ececec);
-  background-image: -o-linear-gradient(#f4f4f4, #ececec);
-  background-image: linear-gradient(#f4f4f4, #ececec);
-  -webkit-background-clip: padding;
-  -moz-background-clip: padding;
-  -o-background-clip: padding-box;
-  /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */
+  background-color: white;
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
   border-radius: 0.2em;
@@ -246,10 +229,7 @@ tr.introjs-showElement > th {
 
 .introjs-button:focus,
 .introjs-button:active {
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#f4f4f4));
-  background-image: -moz-linear-gradient(#ececec, #f4f4f4);
-  background-image: -o-linear-gradient(#ececec, #f4f4f4);
-  background-image: linear-gradient(#ececec, #f4f4f4);
+  background-color: #f4f4f4;
 }
 
 /* overrides extra padding on button elements in Firefox */
